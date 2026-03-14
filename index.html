@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>William Lim — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- STAR FIELD -->
+  <canvas id="star-canvas"></canvas>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#hero" class="nav-name">William Lim</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#coursework">Coursework</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div id="hero">
+    <div class="hero-text fade-up">
+      <p class="hero-eyebrow">Portfolio</p>
+      <h1 class="hero-name">William Lim</h1>
+      <p class="hero-tagline">Student & Aspiring Technology Professional</p>
+      <p class="hero-desc">I'm a sophomore Management Information Systems, Economics, and Business Intelligence & Analytics student, looking to expand my expertise across business intelligence, data analytics, enterprise systems, application development, and automation.</p>
+      <div class="hero-ctas">
+        <a href="https://github.com/williamlim-1" target="_blank" class="btn-primary">View GitHub</a>
+        <a href="#contact" class="btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-image-wrap fade-up" style="transition-delay: 0.15s;">
+      <div class="hero-blob"></div>
+      <div class="headshot-frame">
+        <img src="headshot/headshot.jpg" alt="Headshot">
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-container fade-up">
+      <p class="section-label">About Me</p>
+      <h2 class="section-title">A little background</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a student attending the University of Oklahoma originally from Edmond, Oklahoma.</p>
+          <p>I am passionate about making a difference in organizations and communities alike. Whether through technology, analysis, or supporting the success of others, I am driven by the opportunity to create meaningful impact.</p>
+          <p>Outside of technology, I enjoy reading, cooking, exploring new foods, playing video games, working out, and pursuing new areas of learning.</p>
+        </div>
+        <div class="about-cards">
+          <div class="about-card">
+            <div class="about-card-label">University</div>
+            <div class="about-card-value">The University of Oklahoma</div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-label">Degree</div>
+            <div class="about-card-value">B.B.A. Management Information Systems</div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-label">Additional Degree</div>
+            <div class="about-card-value">B.B.A. Economics</div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-label">Minor/Certificate</div>
+            <div class="about-card-value">Business Intelligence & Analytics</div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-label">GPA</div>
+            <div class="about-card-value">4.00</div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-label">Target Roles</div>
+            <div class="about-card-value">Technology Consulting · Technology Risk · Business Analytics · Data Analytics</div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-label">Expected Graduation</div>
+            <div class="about-card-value">May 2028</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-container fade-up">
+      <p class="section-label">Technical Skills</p>
+      <h2 class="section-title">What I've worked with</h2>
+      <div class="skills-groups">
+
+        <div class="skill-group">
+          <div class="skill-group-label">Languages & Querying</div>
+          <div class="skills-grid">
+            <div class="skill-card"><div class="skill-badge">SQL</div><div class="skill-name">SQL</div></div>
+            <div class="skill-card"><div class="skill-badge">PY</div><div class="skill-name">Python & pandas</div></div>
+            <div class="skill-card"><div class="skill-badge">C#</div><div class="skill-name">C# (.NET)</div></div>
+            <div class="skill-card"><div class="skill-badge">PHP</div><div class="skill-name">PHP</div></div>
+            <div class="skill-card"><div class="skill-badge">SH</div><div class="skill-name">Bash / Shell Scripting</div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Databases & DBMS</div>
+          <div class="skills-grid">
+            <div class="skill-card"><div class="skill-badge">ORA</div><div class="skill-name">Oracle Database</div></div>
+            <div class="skill-card"><div class="skill-badge">MY</div><div class="skill-name">MySQL</div></div>
+            <div class="skill-card"><div class="skill-badge">SS</div><div class="skill-name">SQL Server</div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Data & BI Tools</div>
+          <div class="skills-grid">
+            <div class="skill-card"><div class="skill-badge">BI</div><div class="skill-name">Power BI</div></div>
+            <div class="skill-card"><div class="skill-badge">DAX</div><div class="skill-name">DAX</div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Enterprise Technologies</div>
+          <div class="skills-grid">
+            <div class="skill-card"><div class="skill-badge">SAP</div><div class="skill-name">SAP S/4HANA</div></div>
+            <div class="skill-card"><div class="skill-badge">SF</div><div class="skill-name">Salesforce</div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Productivity & Collaborative Tools</div>
+          <div class="skills-grid">
+            <div class="skill-card"><div class="skill-badge">M365</div><div class="skill-name">Microsoft 365</div></div>
+            <div class="skill-card"><div class="skill-badge">SP</div><div class="skill-name">SharePoint</div></div>
+            <div class="skill-card"><div class="skill-badge">VIS</div><div class="skill-name">Visio</div></div>
+            <div class="skill-card"><div class="skill-badge">VS</div><div class="skill-name">Visual Studio</div></div>
+            <div class="skill-card"><div class="skill-badge">VSC</div><div class="skill-name">Visual Studio Code</div></div>
+            <div class="skill-card"><div class="skill-badge">GIT</div><div class="skill-name">Git & GitHub</div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Operating Systems</div>
+          <div class="skills-grid">
+            <div class="skill-card"><div class="skill-badge">W11</div><div class="skill-name">Windows 11</div></div>
+            <div class="skill-card"><div class="skill-badge">MAC</div><div class="skill-name">macOS</div></div>
+            <div class="skill-card"><div class="skill-badge">LIN</div><div class="skill-name">Linux</div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Concepts</div>
+          <div class="skills-grid">
+            <div class="skill-card"><div class="skill-badge">IT</div><div class="skill-name">IT Audit Concepts</div></div>
+            <div class="skill-card"><div class="skill-badge">DB</div><div class="skill-name">Database Modeling & Design</div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-container fade-up">
+      <p class="section-label">Professional Experience</p>
+      <h2 class="section-title">Where I've worked</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-role">Student Success Specialist</div>
+                <div class="exp-company">Student Success Agency</div>
+              </div>
+              <div class="exp-dates">March 2026 - Present</div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Provide weekly advising and tutoring sessions for high school students focused on learning strategies and improvement</li>
+              <li>Research academic topics, learning resources, and student needs to deliver accurate guidance and targeted support</li>
+              <li>Develop structured plans and session materials tailored to each student's strengths, weaknesses, and academic goals</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-role">Information Technology Intern</div>
+                <div class="exp-company">M-D Building Products</div>
+              </div>
+              <div class="exp-dates">May 2025 - August 2025</div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Analyzed 40+ scripts across 350K+ lines of SQL and shell code to support the decommissioning of a high-risk server</li>
+              <li>Collaborated with 20+ stakeholders across departments to assess report usage and define reporting requirements</li>
+              <li>Developed a script to process 8,000+ HR photo files, matching employee records in MySQL to standardize file naming</li>
+              <li>Presented project results and actionable recommendations directly to C-suite leadership</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- COURSEWORK -->
+  <section id="coursework">
+    <div class="section-container fade-up">
+      <p class="section-label">Academic Coursework</p>
+      <h2 class="section-title">Relevant courses</h2>
+      <!-- ADD LINK HERE LATER IMPORTANT *
+      <a href="https://github.com/williamlim-1/YOUR-REPO" target="_blank" class="section-sublink">View academic portfolio on GitHub →</a>
+      -->
+      <div class="courses-grid">
+        <div class="course-card">
+          <div class="course-name">Business Data Analysis</div>
+          <div class="course-meta">MIS Department</div>
+          <span class="course-tag">In Progress</span>
+        </div>
+        <div class="course-card">
+          <div class="course-name">Electronic Business</div>
+          <div class="course-meta">MIS Department</div>
+          <span class="course-tag">In Progress</span>
+        </div>
+        <div class="course-card">
+          <div class="course-name">Intro To Programming</div>
+          <div class="course-meta">MIS Department</div>
+          <span class="course-tag">In Progress</span>
+        </div>
+        <div class="course-card">
+          <div class="course-name">Databases</div>
+          <div class="course-meta">MIS Department</div>
+          <span class="course-tag">In Progress</span>
+        </div>
+        <div class="course-card">
+          <div class="course-name">Management Information Systems</div>
+          <div class="course-meta">MIS Department</div>
+          <span class="course-tag">Completed</span>
+        </div>
+        <div class="course-card">
+          <div class="course-name">Strategic Business Communication</div>
+          <div class="course-meta">Business Core</div>
+          <span class="course-tag">Completed</span>
+        </div>
+        <div class="course-card">
+          <div class="course-name">Financial Accounting</div>
+          <div class="course-meta">Accounting Department</div>
+          <span class="course-tag">Completed</span>
+        </div>
+        <div class="course-card">
+          <div class="course-name">Intermediate Microeconomic Theory</div>
+          <div class="course-meta">Economics Department</div>
+          <span class="course-tag">Completed</span>
+        </div>
+        <div class="course-card">
+          <div class="course-name">Principles of Microeconomics</div>
+          <div class="course-meta">Economics Department</div>
+          <span class="course-tag">Completed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-container fade-up">
+      <p class="section-label">Projects</p>
+      <h2 class="section-title">Things I've worked on</h2>
+      <div class="projects-grid">
+
+        <!-- Retail BI Dashboard -->
+        <a href="https://github.com/williamlim-1/retail-business-intelligence" target="_blank" class="project-card project-card--linked">
+          <div class="project-header">
+            <span class="project-tag">Power BI · SQL</span>
+            <span class="project-dates">March 2026 - Present</span>
+          </div>
+          <div class="project-title">Retail BI Dashboard</div>
+          <div class="project-desc">Designed a star schema dimensional model and built a multi-page Power BI dashboard analyzing mock POS transaction data across a simulated multi-store chain. Features DAX measures for revenue trends, product performance, and store comparisons.</div>
+          <div class="project-stack">
+            <span class="stack-pill">Python</span>
+            <span class="stack-pill">Power BI</span>
+            <span class="stack-pill">DAX</span>
+          </div>
+          <div class="project-link-hint">View on GitHub →</div>
+        </a>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">SQL · Bash · Oracle</span>
+            <span class="project-dates">May 2025 - June 2025</span>
+          </div>
+          <div class="project-title">Legacy Script Migration Analysis</div>
+          <div class="project-desc">Analyzed 350,000+ lines of SQL and shell scripts running on a legacy UNIX server that supported reporting processes. Traced data flows, identified report dependencies, collaborated with recipients, and documented script logic to support migration and decommissioning of the system's virtual machine environment.</div>
+          <div class="project-stack">
+            <span class="stack-pill">SQL</span>
+            <span class="stack-pill">Bash</span>
+            <span class="stack-pill">Oracle</span>
+            <span class="stack-pill">Ubuntu</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">PHP · MySQL · Automation</span>
+            <span class="project-dates">June 2025 - July 2025</span>
+          </div>
+          <div class="project-title">Employee Photo Matching Automation</div>
+          <div class="project-desc">Developed a PHP script that processed 8,000+ employee photo files and compared them against MySQL employee records. Implemented filename normalization to identify matches across inconsistent naming formats and generate standardized employee photo names.</div>
+          <div class="project-stack">
+            <span class="stack-pill">PHP</span>
+            <span class="stack-pill">MySQL</span>
+          </div>
+        </div>
+
+        <!--
+        ================================================
+        FUTURE PROJECT
+        update href with GitHub repo or live URL
+        ================================================
+        <a href="https://github.com/williamlim-1/REPO-NAME" target="_blank" class="project-card project-card--linked">
+          <div class="project-header">
+            <span class="project-tag">Tag · Tag</span>
+            <span class="project-dates">Month YYYY</span>
+          </div>
+          <div class="project-title">Project Title</div>
+          <div class="project-desc">Project description goes here.</div>
+          <div class="project-stack">
+            <span class="stack-pill">Tool</span>
+            <span class="stack-pill">Tool</span>
+          </div>
+          <div class="project-link-hint">View on GitHub →</div>
+        </a>
+        -->
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-container fade-up">
+      <div class="contact-inner">
+        <p class="section-label">Contact</p>
+        <h2 class="section-title">Let's connect</h2>
+        <p class="contact-desc">I'm actively looking for internship opportunities in IT consulting, technology risk, and data analytics. If you're hiring or want to connect, I'd love to hear from you.</p>
+        <div class="contact-links">
+         <a href="#" class="contact-link" id="email-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        william.limok@gmail.com
+        </a>
+          <a href="https://linkedin.com/in/limwilliam1" target="_blank" class="contact-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/williamlim-1" target="_blank" class="contact-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2026 William Lim.</span>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    // Star field
+    (function () {
+      const canvas = document.getElementById('star-canvas');
+      const ctx = canvas.getContext('2d');
+      let stars = [];
+      let W, H;
+
+      function resize() {
+        W = canvas.width  = window.innerWidth;
+        H = canvas.height = window.innerHeight;
+      }
+
+      function initStars() {
+        stars = [];
+        const count = Math.floor((W * H) / 18000);
+        for (let i = 0; i < count; i++) {
+          stars.push({
+            x:     Math.random() * W,
+            y:     Math.random() * H,
+            r:     Math.random() * 0.8 + 0.1,
+            alpha: Math.random() * 0.6 + 0.2,
+            delta: (Math.random() * 0.002 + 0.0005) * (Math.random() < 0.5 ? 1 : -1),
+            color: Math.random() < 0.1
+                     ? (Math.random() < 0.5 ? '#4FC3F7' : '#A78BFA')
+                     : '#ffffff'
+          });
+        }
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, W, H);
+        for (const s of stars) {
+          s.alpha += s.delta;
+          if (s.alpha <= 0 || s.alpha >= 1) s.delta *= -1;
+          ctx.beginPath();
+          ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+          ctx.fillStyle = s.color;
+          ctx.globalAlpha = Math.max(0, Math.min(1, s.alpha));
+          ctx.fill();
+        }
+        ctx.globalAlpha = 1;
+        requestAnimationFrame(draw);
+      }
+
+      window.addEventListener('resize', function () { resize(); initStars(); });
+      resize();
+      initStars();
+      draw();
+    })();
+
+    // Scroll fade-in
+    (function () {
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      document.querySelectorAll('.fade-up').forEach(function (el) {
+        observer.observe(el);
+      });
+    })();
+  </script>
+
+</body>
+</html>
