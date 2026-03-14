@@ -2,11 +2,6 @@
 .DS_Store
 Thumbs.db
 
-# Headshot
-headshot/
 
 # VS Code
 .vscode/
-
-# photos 
-photos/
