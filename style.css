@@ -860,4 +860,8 @@ a.project-card--linked {
   .section-container { padding: 0 1.5rem; }
   .about-grid { grid-template-columns: 1fr; }
   .projects-grid { grid-template-columns: 1fr; }
+   
+  .nav-name { font-size: 0.85rem; }
+
+  .nav-links { display: none; }
 }
